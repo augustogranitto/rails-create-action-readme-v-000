@@ -17,9 +17,9 @@ class PostsController < ApplicationController
     @post.description = params[:description]
     @post.save
     redirect_to post_path(@post)
-  end 
+  end
 
 end
 
-  
+
 end
